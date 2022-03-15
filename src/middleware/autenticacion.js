@@ -1,6 +1,6 @@
 const jwt_simple = require('jwt-simple');
 const moment = require('moment');
-const secret = 'claveSA';
+const secret = 'claveVO';
 
 exports.Auth = function (req, res, next) {
     if (!req.headers.authorization) {
